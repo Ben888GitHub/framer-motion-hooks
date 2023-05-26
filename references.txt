@@ -3,3 +3,9 @@ https://shakuro.com/blog/framer-motion-new-and-underestimated-features#keyframes
 https://www.youtube.com/watch?v=ZC11XEuX72M
 
 https://gilesperry.hashnode.dev/advanced-scroll-effects-in-framer    
+
+--
+
+Jeroen Roemkens References:
+- https://www.youtube.com/watch?v=fmgh4QbpK_w
+- https://github.com/frontendfyi/scroll-animations-with-framer-motion-codesandbox-projects/tree/main
