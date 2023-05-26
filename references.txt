@@ -1,3 +1,5 @@
 https://shakuro.com/blog/framer-motion-new-and-underestimated-features#keyframes
 
 https://www.youtube.com/watch?v=ZC11XEuX72M
+
+https://gilesperry.hashnode.dev/advanced-scroll-effects-in-framer    

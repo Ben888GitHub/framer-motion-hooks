@@ -3,6 +3,7 @@ import { ListBulletIcon } from '@heroicons/react/20/solid';
 import './App.css';
 import { useAnimate, stagger } from 'framer-motion';
 import UseAnimate from './UseAnimate';
+import UseTransformAndScroll from './UseTransformAndScroll';
 
 function App() {
 	const [items, setItems] = useState([
@@ -23,14 +24,7 @@ function App() {
 		}));
 		setItems(newItems);
 
-		// setItems((currentItems) =>
-		// 	currentItems.map((item) => ({
-		// 		...item,
-		// 		checked: item.id === id ? !item.checked : item.checked
-		// 	}))
-		// );
-
-		// todo, animate the items
+		// * animate the items
 		if (newItems.every((item) => item.checked)) {
 			let lastCompletedItem = items.findIndex((item) => !item.checked);
 
@@ -80,6 +74,8 @@ function App() {
 				</div>
 			</div>
 			<UseAnimate />
+			<br />
+			<UseTransformAndScroll />
 		</>
 	);
 }
